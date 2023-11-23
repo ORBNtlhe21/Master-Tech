@@ -212,13 +212,16 @@
 
 .email{
     font-size: large;
+    text-align: center;
 }
 
 .pdp{
-    margin-left: 85px;
+    
+    text-align: center;
 }
 .pd{
-    margin-left: 155px;
+    
+    text-align: center;
 }
 
 .section3{
