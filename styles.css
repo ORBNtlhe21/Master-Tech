@@ -125,6 +125,15 @@
     }
 }
 
+@media only screen and (max-width: 480px){
+    .socials{
+        display: none !important;
+    }
+    .hr-remove{
+        display: none !important;
+    }
+}
+
 .rounded{
     border-radius: 5%;
     margin: 25px;
