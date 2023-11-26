@@ -8,9 +8,13 @@ body{
     height: 80px;
 }
 .header{
-    margin: 12px;
+    margin-top: 15px;
     color: #0c343d;
     text-align: center;
+    margin-left: 25px;
+    margin-right: 0px;
+    align-items: center;
+    width: 100%;
 }
 .img-fluid{
     min-width: none;
@@ -19,7 +23,7 @@ body{
     width: 35em;
     border-radius: 10%;
     margin-right: 18px;
-    margin-left: 18px;
+    margin-left: 20px;
     margin-top: 18px;
     margin-bottom: 8px;
     float: right;
@@ -95,7 +99,7 @@ body{
     margin-left: 15px;
     margin-top: 38px;
     height: 139.4px;
-    width: 125px;
+    width: 105px;
     border-radius: 5%;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -190,7 +194,7 @@ body{
 
 
 .Phone{
-    width: 350px;
+    width: 300px;
     min-width: none;
     height: 300px;  
     min-height: 25px;
