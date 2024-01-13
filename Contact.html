@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us page</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-primary fixed-bottom fixed-top"> <!--Beginning of the nav bar-->
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><b>Master <i>Tech</i></b></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html" style="color: white; font-size: large;">Home</a>
+                  </li>
+ 
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div> <!--Ending of the navbar-->
+		<br>
+		<br>
+		<br>
+    
+    <div class="main">
+			<h2><i>Connect & get in touch</i></h2>
+      <hr/ style="color:blue; margin-top: 10px; margin-left: 23em; margin-right: 23em;" >
+        <div class="initials">
+            Name: <input type="text" placeholder="John" id="nametxt"><br>
+            Surname: <input type="text" placeholder="Doe" id="surnametxt"><br>
+            Email: <input type="email" placeholder="johnDoe@gmail.com" id="email">
+        </div>
+        <h3 id="label">Tell us about your project</h3>
+        <div class="text">
+            <textarea id="exp" rows="5" cols="50"></textarea>
+        </div>
+        <p id="msgtxt"></p>
+        <input type="submit" id="btn">
+        <button id="clear">Clear</button>
+    </div>
+
+    <br>
+    <hr/ style="color:blue; margin-top: 10px;" >
+
+    <div class="container-fluid"> <!--Beginning of the footer-->
+      <div class="footer">
+        <div class="row">
+          <div class="col-lg-3 col-sm-12 col-md-3">
+            <h1 class="logo" href="#"><b>Master <i style="color: #44BBFF;">Tech</i></b></h1>
+            <p class="p"><i>The <b style="color: #44BBFF;">Tech</b> you need!!</i></p>
+          </div>
+          <div class="col-lg-6 col-sm-12 col-md-6">
+            <p class="email" style="color: #44BBFF;"><b>touch@mastertech.co.za | +27 (15) 516-1145</b></p>
+            <p class="pdp">#2023 Master Tech. Private policy</p>
+            <p class="pd">Copyright privacy</p>
+          </div>
+          <div class="socials col-lg-3">
+            <span>
+              <img src="./instagram-icon.png" class="ig" alt="A nice instagram image">
+              <img src="./facebook-icon.png" class="fb" alt="Facebook image">
+              <img src="./indeed-icon.jpg" class="li" alt="linkedIn">
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>  <!--Ending of the footer-->
+
+    <script src="./contact.js"></script>
+</body>
+</html>
