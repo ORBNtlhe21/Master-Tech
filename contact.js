@@ -14,7 +14,7 @@ let clear = document.querySelector("#clear");
 btn.addEventListener("click", function(){
     checkEntry();
     
-    if(_name.value.length !== 0 && surname.value.length !== 0 && email.value.length !== 0 && message.value.length !== 0){
+    if(_name.value.length === 0 && surname.value.length === 0 && email.value.length === 0 && message.value.length === 0){
         thankMessage.innerHTML = "";
     }
     else{
