@@ -13,10 +13,22 @@ let clear = document.querySelector("#clear");
 
 btn.addEventListener("click", function(){
     checkEntry();
-    if(_name.value.length !== 0){
+    
+    if(_name.value.length === 0){
+        thankMessage.innerHTML = "";
+    }
+    else if(surname.value === 0){
+        thankMessage.innerHTML = "";
+    }
+    else if(email.value.length === 0){
+        thankMessage.innerHTML = "";
+    }
+    else if(message.value.length === 0){
+        thankMessage.innerHTML = "";
+    }
+    else{
         thankMessage.innerHTML = `Thank you very much ${_name.value}, We received your submission and We shall get back to you shortly`;
     }
-
 });
 clear.addEventListener("click", function(){
     _name.value = "";
