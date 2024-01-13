@@ -17,7 +17,7 @@ btn.addEventListener("click", function(){
     if(_name.value.length === 0){
         thankMessage.innerHTML = "";
     }
-    else if(surname.value === 0){
+    else if(surname.value.length === 0){
         thankMessage.innerHTML = "";
     }
     else if(email.value.length === 0){
@@ -36,6 +36,11 @@ clear.addEventListener("click", function(){
     email.value = "";
     message.value = "";
     thankMessage.innerHTML = "";
+
+    _name.style.border = "2px solid blue";
+    surname.style.border = "2px solid blue";
+    email.style.border = "2px solid blue";
+    message.style.border = "2px solid blue";
 });
 
 function checkEntry(){
@@ -43,7 +48,7 @@ function checkEntry(){
         _name.style.border = "2px solid red"; 
     }
     else{
-        _name.style.border = "2px solid blue"
+        _name.style.border = "2px solid blue";
     }
 
     if(surname.value.length === 0){
