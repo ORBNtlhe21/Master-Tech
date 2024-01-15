@@ -30,6 +30,7 @@ btn.addEventListener("click", function(){
         thankMessage.innerHTML = `Thank you very much ${_name.value}, We received your submission and We shall get back to you shortly`;
     }
 });
+
 clear.addEventListener("click", function(){
     _name.value = "";
     surname.value = "";
