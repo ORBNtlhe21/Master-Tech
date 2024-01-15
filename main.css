@@ -1,11 +1,5 @@
 body{
-    margin-left: 0;
-    padding: 0;
-    margin: 0%;
-   /* background: url("./myPic3.jpg") no-repeat center center/cover;
-    height: 100vh;
-    position: relative;
-    color: #fff;*/
+    padding: 5px;
 }
 .navbar{
     height: 70px;
@@ -19,10 +13,10 @@ body{
     padding-bottom: 2%;
     font-family: sans-serif;
     font-size: large;
-    
+    margin-left: 15em;
+    margin-right: 15em;
+
     border: solid 2px blue;
-    margin-left: 22em;
-    margin-right: 22em;
     margin-top: 15px;
     border-radius: 25px;
 }
@@ -31,7 +25,7 @@ body{
     margin-bottom: 20px;
 }
 .navbar-brand{
-    margin-left: 5em;
+    margin-left: 5px;
 }
 #nametxt, #email {
     margin-left: 25px;
@@ -46,7 +40,7 @@ body{
     border-radius: 5px;
 }
 #exp {
-    width: 22em;
+    width: 18em;
     height: 10em;
     border: 2px solid blue;
     border-radius: 15px;
