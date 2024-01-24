@@ -1,7 +1,5 @@
 body{
-    margin-left: 0;
-    padding: 0;
-    margin: 0%;
+    padding: 5px;
 }
 
 .navbar{
@@ -51,10 +49,8 @@ body{
 }
 
 .design-img{
-    min-width: none;
-    min-height: 3em;
     height: 20em;
-    width: 22em;
+    width: 20em;
     border-radius: 15%;
     margin-right: 18px;
     margin-left: 0px;
@@ -111,8 +107,6 @@ body{
     padding-bottom: 20px;
     padding-left: 2px;
 }
-
-
 
 .card:hover{
     transform: translateX(-10px);
