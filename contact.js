@@ -6,6 +6,7 @@ let surname = document.querySelector("#surnametxt");
 let email = document.querySelector("#email");
 let message = document.querySelector("#exp");
 let thankMessage = document.querySelector("#msgtxt");
+let line = document.querySelector("#lineDiv");
 
 // Button Variables
 let btn = document.querySelector("#btn");
@@ -42,7 +43,9 @@ clear.addEventListener("click", function(){
     surname.style.border = "2px solid blue";
     email.style.border = "2px solid blue";
     message.style.border = "2px solid blue";
+    
 });
+
 
 function checkEntry(){
     if(_name.value.length === 0){
